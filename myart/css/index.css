@@ -1,0 +1,196 @@
+.banner{
+	width: 100%;
+	height:400px;
+}
+.content{
+	width:100%;
+	background:url(../img/bg.png) repeat fixed top;
+}
+.wp{
+	width:1200px;
+	margin: 0 auto;
+	background-color: white;
+	border: 0.1px solid white;
+}
+.wp_one{
+	width:1170px;
+	height:395px;
+	margin: 15px 14px;
+	border: 1px solid #e6be78;
+	border-top: none;
+}
+.new_txt{
+	width:1169px;
+	height:30px;
+	background:url(../img/wp_top.png) no-repeat;
+	
+}
+.s_txt{
+	display: block;
+	height:30px;
+	line-height: 30px;
+	margin-left: 35px;
+	font-size: 16px;
+	color: #452401;
+}
+.box1{padding: 10px;}
+.box1 .left{float:left;width: 460px;height: 345px;position: relative;}
+.box1 .left .hd{position: absolute;overflow: hidden;right: 5%;bottom: 46px;z-index: 9}
+.box1 .left .hd li{float: left; opacity:0.5; width: 24px;line-height:14px; height: 14px;margin-right: 0px; font-size:12px;background: #666666;color:White;border-left:1px solid white; text-align:center;}
+.box1 .left .hd li a {text-decoration:none;color:White;}
+.box1 .left .hd li a:hover {text-decoration:none;color:White;}
+.box1 .left .hd li a:visited {text-decoration:none;color:White;}
+.box1 .left .hd li a:active{text-decoration:none;color:White;}
+.box1 .left .hd .on{background: #ff0000;opacity:1;}
+.box1 .left img{width: 460px;height: 345px;position:absolute;top:0px;}
+.box1 .left p{position: relative;top: 308px;background: url(../img/ico01.png) repeat-x;height: 37px;line-height: 37px;width: 460px;padding-left:10px;color: #fff;font-family: 'Microsoft Yahei';}
+.box1 .right{float: right;width: 660px;}
+.public_list {
+    width: 100%;
+}
+.public_list{width: 100%;}
+.public_list li{ background: url(../img/line_bg.png) left center no-repeat;padding-left: 10px;color: #865d47;overflow: hidden;clear:both;}
+.public_list li a:hover{ color:#ae0000;text-decoration: none;}
+.public_list li a{line-height: 35px;color: #865d47;float:left; font-size:14px;text-decoration: none;}
+.public_list li span{float: right;font-size: 14px;padding-top: 10px;float:right;}
+.lj_c{
+	width:1148px;
+	height:430px;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	background: url(../img/lj_bg01.png)  center no-repeat;
+}
+.two{
+	height:482px;
+}
+.lj_left{
+	float: left;
+	margin-left: 180px;
+	margin-top: 50px;
+	width:400px;
+	height:380px;
+}
+.lj_right{
+	float: left;
+	margin-left: 50px;
+	margin-top: 180px;
+	width:470px;
+	height:200px;
+}
+.lj_left_one{
+	width:400px;
+	height:200px;
+}
+.title1{
+	width:400px;
+	height:36px;
+	padding-top: 3px;
+	background: url(../img/lj_bg02.png)  left no-repeat;
+}
+@font-face { 
+font-family: Lovelo; 
+src: url('/fonts/SEGOESC.TTF'); 
+} 
+.lj_txt{
+	display: block;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-family: apictos;
+	color:white;
+}
+.lj_left_one p{
+	font-size: 12px;
+	color: #383838;
+	padding-top: 6px;
+}
+.lj_left_two p{
+	font-size: 12px;
+	color: #383838;
+	padding-top: 6px;
+}
+.lj_left_three p{
+	font-size: 12px;
+	color: #383838;
+	padding-top: 6px;
+}
+a{ text-decoration:none; color:#333;  }
+.picMarquee-left{ overflow:hidden; position:relative; width:1140px; margin-left:15px;margin-top:15px;}
+.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+.picMarquee-left .bd ul li{ margin:0 8px; float:left; display:inline; overflow:hidden; text-align:center;  }
+.picMarquee-left .bd ul li .pic{ text-align:center; }
+.picMarquee-left .bd ul li .pic img{ width:280px; height:180px; display:block; padding:2px; border:1px solid #ccc; }
+.mj_c{
+	width:1148px;
+	height:430px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 20px;
+	background: url(../img/zjbg_01.png)  center no-repeat;
+}
+.mj_left{
+	float: left;
+	width:45%;
+	height:300px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.mj_right{
+	float: left;
+	width:46%;
+}
+.mj_1{
+	float: left;
+	padding-top: 8px;
+}
+.mj_2{
+	float: left;
+	width:65%;
+	font-size: 14px;
+	color: #653f0c;
+	margin-left: 18px;
+}
+.mj_2 p{
+	padding: 4px 0px;
+}
+.mj_one{
+	width:100%;
+	height: 180px;
+}
+.mj_two{
+	width:100%;
+	height: 200px;
+	padding-top: 20px;
+}
+.mj_one_left{
+	float: left;
+}
+.mj_one_right{
+	float: left;
+	width:72%;
+	height: 180px;
+	margin-left:18px;
+}
+.tt{
+	width:52%;
+}
+.r1{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #653f0c;
+}
+.r1 p{
+	padding: 4px 0px;
+}
+.r11{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #653f0c;
+}
+.r11 p{
+	padding: 4px 0px;
+}
+.threes{
+	    height: 265px;
+}

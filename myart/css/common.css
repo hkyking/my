@@ -1,0 +1,99 @@
+body,h1,h2,h3,h4,h5,h6,hr,img,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,a,tr
+	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+html{
+
+    height:100%;
+
+    width:100%;
+
+}
+.wrap{
+	width:100%;
+	height:100%;
+}
+body,button,input,select,textarea {
+	font-size: 14px;
+	font-family: Microsoft YaHei,;
+	background-color: #fff;
+	line-height: 18px;
+}
+.header{
+	background-color:#f7f4ee ;
+}
+.top{
+	width: 100%;
+	height: 20px;
+	background:url(../img/top01.png) repeat fixed top;
+}
+.logo_area{
+	width: 100%;
+	height: 120px;
+}
+.logo{
+	width: 1200px;
+	height: 100px;
+	margin: 10px auto;
+}
+.logo_left{
+	float: left;
+}
+.logo_right{
+	float: right;
+	width: 208px;
+	height: 50px;
+	margin-top: 25px;
+	border-left:1px solid #d9d9d9 ;
+}
+.txt{
+margin-left: 50px;	
+}
+.point{
+	width: 2px;
+	height: 2px;
+	margin-bottom: 3px;
+}
+.txt1{
+	font-size: 12px;
+	color:black ;
+	margin-left: 10px;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color: #875d31;
+	overflow: hidden;
+}
+.nav_main{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+.nav_ul{
+	float: left;
+	font-size: 14px;
+	color: white;
+	overflow: hidden;
+}
+.nav_ul li{
+	line-height:50px;
+	list-style-type: none; 
+	float: left;
+	margin-left: 31px;
+	overflow: hidden;
+}
+.nav_ul li a{
+	font-size: 14px;
+	color: white;
+	text-decoration:none;
+	margin-top: 0px;
+}
+.line{
+	float: left;
+	margin-left: 31px;
+}
+
+.clear{clear:both} 
